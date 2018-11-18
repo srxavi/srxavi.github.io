@@ -1,0 +1,58 @@
+baseURL = "https://srxavi.me/"
+languageCode = "en-us"
+title = "srxavi"
+theme = "hugo-coder"
+
+[params]
+    author = "Xavi Francisco"
+    info = "[love(passion) for passion in ('Python', 'Free software', 'Privacy', 'Human Rights')]"
+    description = "Xavi Francisco's personal website"
+    keywords = "blog,developer,personal"
+    avatarurl = "images/avatar.png"
+
+    favicon_32 = "/img/favicon-32x32.png"
+    favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
+
+    hidecredits = true
+    hidecopyright = true
+
+    inverted = true
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/srxavi/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/srxavi/"
+[[params.social]]
+    name = "Mastodon"
+    icon = "fab fa-mastodon fa-2x"
+    url = "https://cybre.space/@srxavi"
+    weight = 3
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    url = "https://twitter.com/@srxavi"
+    weight = 3
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    url = "https://www.linkedin.com/in/xavifrancisco/"
+    weight = 4
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase fa-2x"
+    url = "https://keybase.io/srxavi"
+    weight = 4

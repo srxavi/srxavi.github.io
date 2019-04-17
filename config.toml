@@ -6,7 +6,7 @@ theme = "hugo-coder"
 [params]
     author = "Xavi Francisco"
     info = "[love(passion) for passion in ('Python', 'Free software', 'Privacy', 'Human Rights')]"
-    description = "Xavi Francisco's personal website"
+    description = "Xavi Francisco's own dimensional pocket"
     keywords = "blog,developer,personal"
     avatarurl = "images/avatar.png"
 
@@ -39,7 +39,7 @@ theme = "hugo-coder"
 [[params.social]]
     name = "Mastodon"
     icon = "fab fa-mastodon fa-2x"
-    url = "https://cybre.space/@srxavi"
+    url = "https://fosstodon.org/@srxavi"
     weight = 3
 [[params.social]]
     name = "Twitter"

@@ -18,7 +18,7 @@ theme = "hugo-coder"
     hidecredits = true
     hidecopyright = true
 
-    inverted = true
+    inverted = false
 
     rtl = false
 
@@ -28,31 +28,31 @@ theme = "hugo-coder"
 # Social links
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
+    icon = "fa fa-github fa-2x"
     weight = 1
     url = "https://github.com/srxavi/"
 [[params.social]]
     name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
+    icon = "fa fa-gitlab fa-2x"
     weight = 2
     url = "https://gitlab.com/srxavi/"
 [[params.social]]
     name = "Mastodon"
-    icon = "fab fa-mastodon fa-2x"
+    icon = "fa fa-mastodon fa-2x"
     url = "https://fosstodon.org/@srxavi"
     weight = 3
 [[params.social]]
     name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    icon = "fa fa-twitter fa-2x"
     url = "https://twitter.com/@srxavi"
     weight = 3
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin fa-2x"
+    icon = "fa fa-linkedin fa-2x"
     url = "https://www.linkedin.com/in/xavifrancisco/"
     weight = 4
 [[params.social]]
     name = "Keybase"
-    icon = "fab fa-keybase fa-2x"
+    icon = "fa fa-keybase fa-2x"
     url = "https://keybase.io/srxavi"
     weight = 4

@@ -39,7 +39,7 @@ theme = "hugo-coder"
 [[params.social]]
     name = "Mastodon"
     icon = "fa fa-mastodon fa-2x"
-    url = "https://fosstodon.org/@srxavi"
+    url = "https://mastodon.social/@srxavi"
     weight = 3
 [[params.social]]
     name = "Twitter"
@@ -50,9 +50,4 @@ theme = "hugo-coder"
     name = "LinkedIn"
     icon = "fa fa-linkedin fa-2x"
     url = "https://www.linkedin.com/in/xavifrancisco/"
-    weight = 4
-[[params.social]]
-    name = "Keybase"
-    icon = "fa fa-keybase fa-2x"
-    url = "https://keybase.io/srxavi"
     weight = 4

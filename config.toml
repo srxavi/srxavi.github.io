@@ -1,22 +1,26 @@
 baseURL = "https://srxavi.me/"
 languageCode = "en-us"
 title = "srxavi"
-theme = "hugo-coder"
+theme = "pulp"
+
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
 
 [params]
     author = "Xavi Francisco"
-    info = "[love(passion) for passion in ('Python', 'Free software', 'Privacy', 'Human Rights')]"
-    description = "Xavi Francisco's own dimensional pocket"
+    description = """
+    <code>[love(passion) for passion in ('Python', 'Free software', 'Privacy', 'Human Rights')]</code>
+    """
     keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.png"
+    avatar = "avatar.png"
+
+    publicationYear = "2022"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.'
-
-    hidecredits = true
-    hidecopyright = true
+    hidecredits = false
+    hidecopyright = false
 
     inverted = false
 
@@ -26,28 +30,32 @@ theme = "hugo-coder"
     custom_css = ["css/custom.css"]
 
 # Social links
-[[params.social]]
-    name = "Github"
-    icon = "fa fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/srxavi/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fa fa-gitlab fa-2x"
-    weight = 2
+[[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-lg'></i>"
+    url = "https://github.com/srxavi"
+    weight = 10
+
+[[menu.main]]
+    identifier = "gitlab"
+    pre = "<i class='fab fa-gitlab fa-lg'></i>"
     url = "https://gitlab.com/srxavi/"
-[[params.social]]
-    name = "Mastodon"
-    icon = "fa fa-mastodon fa-2x"
+    weight = 20
+
+[[menu.main]]
+    identifier = "mastodon"
+    pre = "<i class='fab fa-mastodon fa-lg'></i>"
     url = "https://mastodon.social/@srxavi"
-    weight = 3
-[[params.social]]
-    name = "Twitter"
-    icon = "fa fa-twitter fa-2x"
+    weight = 30
+
+[[menu.main]]
+    identifier = "twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"    
     url = "https://twitter.com/@srxavi"
-    weight = 3
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fa fa-linkedin fa-2x"
+    weight = 40
+
+[[menu.main]]
+    identifier = "linkedin"
+    pre = "<i class='fab fa-linkedin fa-lg'></i>"    
     url = "https://www.linkedin.com/in/xavifrancisco/"
-    weight = 4
+    weight = 50

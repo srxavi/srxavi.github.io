@@ -45,17 +45,11 @@ theme = "pulp"
 [[menu.main]]
     identifier = "mastodon"
     pre = "<i class='fab fa-mastodon fa-lg'></i>"
-    url = "https://mastodon.social/@srxavi"
+    url = "https://social.srxavi.me/@xavi"
     weight = 30
-
-[[menu.main]]
-    identifier = "twitter"
-    pre = "<i class='fab fa-twitter fa-lg'></i>"    
-    url = "https://twitter.com/@srxavi"
-    weight = 40
 
 [[menu.main]]
     identifier = "linkedin"
     pre = "<i class='fab fa-linkedin fa-lg'></i>"    
     url = "https://www.linkedin.com/in/xavifrancisco/"
-    weight = 50
+    weight = 40
